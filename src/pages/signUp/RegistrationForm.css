@@ -1,0 +1,72 @@
+.registration-form-container, .login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.registration-form, .login-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form label, .login-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.registration-form input, .login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.registration-form input.error, .login-form input.error {
+  border-color: red;
+}
+
+.registration-form .error-message, .login-form .error-message {
+  color: red;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.registration-form button, .login-form button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registration-form button:hover, .login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* RegistrationForm.css */
+
+
+.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}

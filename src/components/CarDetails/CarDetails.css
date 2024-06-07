@@ -1,0 +1,62 @@
+.car-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.car-details-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+.car-details-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.car-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.car-price, .car-details {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.car-description {
+    margin: 20px 0;
+}
+
+.rent-button, .delete-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 40%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.rent-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button{
+    margin-top: 20px;
+    background-color: rgb(247, 109, 109);
+    padding: 10px 7%;
+}
+.delete-button:hover {
+    background-color: red;
+}

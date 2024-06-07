@@ -1,0 +1,45 @@
+.top-component {
+    position: relative;
+    height: 400px;
+    background-image: url('../Assets/pexels-photo-193999.jpeg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .search-input, .filter-select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search-input {
+    flex: 1;
+  }
+  
+  .filter-select {
+    flex: 0.5;
+    background: #fff;
+    color: #000;
+  }
+  
